@@ -1,0 +1,12 @@
+LICENSE.txt
+setup.py
+app/clesolvepkg/__init__.py
+app/clesolvepkg.egg-info/PKG-INFO
+app/clesolvepkg.egg-info/SOURCES.txt
+app/clesolvepkg.egg-info/dependency_links.txt
+app/clesolvepkg.egg-info/requires.txt
+app/clesolvepkg.egg-info/top_level.txt
+app/clesolvepkg/src/__init__.py
+app/clesolvepkg/src/cle_solve_func.py
+app/clesolvepkg/src/example.py
+app/clesolvepkg/test/__init__.py
