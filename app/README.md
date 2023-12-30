@@ -1,0 +1,23 @@
+CLESOLVEPKG 
+
+Coded for a numerical lab at uni bonn
+
+Contains a "Model" class to specify reaction networks.
+Model has members:
+   reactants: the reactants on the l.h.s. of the chemical reactions,
+   products: the products "...",
+   rates: The rates of the reactions,
+   initial_vals: The amount of biological species at beginning of simulation,
+   get_propensities: A function that returns the array of propensities, given a species vector y and rates
+
+Contains the functions:
+1. solve_cle(model:Model,t_span:np.array,num_solver:int)
+   Takes an instance of model and time during which to simulate.
+   For num_solver = 0 uses custom Euler-Maruyama method.
+   For num_solver = 1 uses sdeint.itoint function to simulate CLE.
+2. euler_maruyama(y0,t_span:np.array,f,G)
+   y0 as initial value at time t = 0
+   t_span: the time window to be simulated
+   f: the deterministic part of the SDE
+   G: The part of the SDE containing the Wiener process
+   -> returns array of species data calculated w.r.t. times in t_span
