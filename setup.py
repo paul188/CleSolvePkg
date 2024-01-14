@@ -15,11 +15,11 @@ setup(name="clesolvepkg",
       author_email="pauljoh@gmx.de",
       license="MIT",
       classifiers=[
-          "License:: OSI Approved :: MIT License",
-          "Programming Language :: Python :: 3.11.2",
-          "Operating System :: OS Independent"
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3.10",
+        "Operating System :: OS Independent",
       ],
-      install_requires= ["sdeint >= 0.3.0"],
+      install_requires= ["sdeint >= 0.3.0","numpy >= 1.24.2", "scipy >= 1.11.1"],
       extras_require={
           "dev": ["pytest>=7.0", "twine >=4.0.2"]
       },

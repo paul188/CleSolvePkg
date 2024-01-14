@@ -8,5 +8,4 @@ app/clesolvepkg.egg-info/requires.txt
 app/clesolvepkg.egg-info/top_level.txt
 app/clesolvepkg/src/__init__.py
 app/clesolvepkg/src/cle_solve_func.py
-app/clesolvepkg/src/example.py
-app/clesolvepkg/test/__init__.py
+app/clesolvepkg/src/test.py

@@ -1,4 +1,6 @@
 sdeint>=0.3.0
+numpy>=1.24.2
+scipy>=1.11.1
 
 [dev]
 pytest>=7.0

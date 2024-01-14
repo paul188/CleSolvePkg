@@ -1,5 +1,6 @@
 from .src.cle_solve_func import(
     Model,
     euler_maruyama,
-    solve_cle
+    solve_cle,
+    plot_cle
 )
